@@ -1,0 +1,10 @@
+[package]
+name = "arsen_cpupool"
+version = "0.1.0"
+authors = ["Mike Lubinets <lubinetsm@yandex.ru>"]
+
+[dependencies]
+rand = "0.3"
+futures = "0.1"
+futures-cpupool = "0.1"
+tokio-core = "0.1"
